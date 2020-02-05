@@ -16,12 +16,13 @@
 	```
 	DEFINES += QT_MESSAGELOGCONTEXT
 	```
-4. 安装日志 在程序开始的地方安装
-        // 安装日志
-        
-        qInstallMessageHandler(outputMessage);
+4.  在程序开始的地方安装日志
+	```
+	qInstallMessageHandler(outputMessage);
+	```
+5. 使用日志
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk4NDAyNV19
+eyJoaXN0b3J5IjpbLTk2MDk0OTA1N119
 -->
