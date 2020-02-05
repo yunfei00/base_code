@@ -1,6 +1,6 @@
 # qt c++ 自动缩放大小文件使用说明
 1. 添加文件到工程里
-2. 
+	[auto_resize.cpp] http://
 3. 定义控制大小的对象，并重写 resizeEvent 函数
         AutoResize *m_autoResizeHandler;    
         void resizeEvent(QResizeEvent * event);
@@ -24,5 +24,5 @@ void Widget::resizeEvent(QResizeEvent *event)
     ui->tableWidget->verticalHeader()->setSectionResizeMode(QHeaderView::Stretch);//设置表格高度自适应
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQ2NTYzMzNdfQ==
+eyJoaXN0b3J5IjpbLTExNDk0NjY4NzJdfQ==
 -->
