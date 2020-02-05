@@ -21,9 +21,14 @@
 	qInstallMessageHandler(outputMessage);
 	```
 5. 使用日志
-
+	```
+	qDebug() << debug;
+	qInfo() << info;
+	qWarning() << warning;
+	
+	```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTUxMDU3MywtOTYwOTQ5MDU3XX0=
+eyJoaXN0b3J5IjpbLTI4MTU3MjA2LC05NjA5NDkwNTddfQ==
 -->
