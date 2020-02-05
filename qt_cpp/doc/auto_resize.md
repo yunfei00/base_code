@@ -11,7 +11,8 @@
 		m_autoResizeHandler->doAutoResize();
 	}
 	```
-3. 在初始化函数中，增加大小动态变化的控件
+3. 在初始化函数中，增加大小动态变化的控件(如果有table 需要设置为表格自适应)
+    ```
     //自动缩放大小
     m_autoResizeHandler=new AutoResize(this,this->rect().width(),this->rect().height());
     m_autoResizeHandler->setAutoResizeFlag(
@@ -26,5 +27,5 @@
     ui->tableWidget->verticalHeader()->setSectionResizeMode(QHeaderView::Stretch);//设置表格高度自适应
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyMDE2OTkxXX0=
+eyJoaXN0b3J5IjpbLTkyMDE3Mjc5OF19
 -->
