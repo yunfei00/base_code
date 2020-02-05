@@ -25,10 +25,10 @@
 	qDebug() << debug;
 	qInfo() << info;
 	qWarning() << warning;
-	
+	qCritical() << Critical;
 	```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTU3MjA2LC05NjA5NDkwNTddfQ==
+eyJoaXN0b3J5IjpbNTg5MTEwMzI1LC05NjA5NDkwNTddfQ==
 -->
