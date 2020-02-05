@@ -25,7 +25,8 @@
     m_autoResizeHandler->pushAllResizeItem();
     ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch); //设置表格宽度自适应
     ui->tableWidget->verticalHeader()->setSectionResizeMode(QHeaderView::Stretch);//设置表格高度自适应
+    ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDE3Mjc5OF19
+eyJoaXN0b3J5IjpbMTM1NjM3NDc1Ml19
 -->
