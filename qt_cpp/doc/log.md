@@ -8,10 +8,20 @@
 	QString current_date = QString("(%1)").arg(current_date_time);
 	QString message = QString("%1 %2 %3 %4").arg(current_date).arg(text).arg(msg).arg(context_info);
 	```
-	名称及l修改
+	名称及路径修改
 	```
 	QString filename = QDateTime::currentDateTime().toString("./log/yyyy_MM_dd.log");
 	```
+3. 在工程里面添加宏。打开日志输出
+	```
+	DEFINES += QT_MESSAGELOGCONTEXT
+	```
+4. 安装日志 在程序开始的地方安装
+        // 安装日志
+        
+        qInstallMessageHandler(outputMessage);
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDA1OTk2MDZdfQ==
+eyJoaXN0b3J5IjpbMjk4NDAyNV19
 -->
