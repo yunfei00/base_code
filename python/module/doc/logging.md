@@ -31,6 +31,7 @@ logging.warning('is when this event was logged.’)
 5 高级用法
 logger = logging.getLogger(__name__)
 
+# 3 日志级别
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzAzODQzOV19
+eyJoaXN0b3J5IjpbMTY2MzI0MDg3MSwtMTczMDM4NDM5XX0=
 -->
