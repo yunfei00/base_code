@@ -32,6 +32,17 @@ logging.warning('is when this event was logged.’)
 logger = logging.getLogger(__name__)
 
 # 3 日志级别
+
+|级别|说明|
+|-----|---|
+|DEBUG|细节信息，仅当诊断问题时适用。
+|INFO|确认程序按预期运行
+|WARNING|表明有已经或即将发生的意外（例如：磁盘空间不足）。程序仍按预期进行
+|ERROR|由于严重的问题，程序的某些功能已经不能正常执行
+|CRITICAL|严重的错误，表明程序已不能继续执行
+
+默认的级别是``WARNING``，意味着只会追踪该级别及以上的事件，除非更改日志配置。
+所追踪事件可以以不同形式处理。最简单的方式是输出到控制台。另一种常用的方式是写入磁盘文件。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzI0MDg3MSwtMTczMDM4NDM5XX0=
+eyJoaXN0b3J5IjpbMTEzNTI4ODQxNSwtMTczMDM4NDM5XX0=
 -->
