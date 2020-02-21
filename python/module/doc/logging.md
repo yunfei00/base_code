@@ -2,14 +2,13 @@
 # 1 logging 模块说明
 logging 模块是python的标准库，[官方网址](https://docs.python.org/3/howto/logging.html)
 # 2 logging 基本使用
-默认的打印级别为warning
-import logging
-logging.warning('Watch out!')  # will print a message to the console
-logging.info('I told you so')  # will not print anything2 默认的打印级别为warning
+1. 默认的打印级别为warning
+```
 import logging
 logging.warning('Watch out!')  # will print a message to the console
 logging.info('I told you so')  # will not print anything
-3 写入日志
+```
+2. 写入日志
 import logging
 logging.basicConfig(filename='example.log',level=logging.DEBUG)
 logging.debug('This message should go to the log file')
@@ -29,5 +28,5 @@ logging.warning('is when this event was logged.’)
 logger = logging.getLogger(__name__)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTMyNDYyNl19
+eyJoaXN0b3J5IjpbLTEyMzQ0ODMxMTJdfQ==
 -->
