@@ -59,8 +59,8 @@ datefmt 参数的格式与 time.strftime() 支持的格式相同。
 %A|本地化的星期中每日的完整名称|周六为 'Saturday'
 %b|本地化的月缩写名称|二月为 'Feb'
 %B|本地化的月完整名称|二月为 'February'
-%c|本地化的适当日期和时间表示|
-%d|十进制数 [01,31] 表示的月中日|
+%c|本地化的适当日期和时间表示|当前时间：Sat Feb 22 13:28:57 2020
+%d|十进制数 [01,31] 表示的月中日
 %H|十进制数 [00,23] 表示的小时（24小时制）。
 
 %I
@@ -137,7 +137,7 @@ datefmt 参数的格式与 time.strftime() 支持的格式相同。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMzUyNDk5NiwtNjUyNzc3OTA3LC0xMD
-QyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4ODQxNSwtMTczMDM4
-NDM5XX0=
+eyJoaXN0b3J5IjpbNTU5MzgyMDksLTY1Mjc3NzkwNywtMTA0Mj
+cwODk1NywyMDM0NjgzNTQ2LDExMzUyODg0MTUsLTE3MzAzODQz
+OV19
 -->
