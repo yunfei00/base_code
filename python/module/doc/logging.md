@@ -47,12 +47,12 @@ logging.warning('is when this event was logged.’)
 # 5 日志事件处理流程
 # 6 日志文件使用说明
 # 7 格式化配置
+1. 格式化时间，datefmt 参数的格式与 time.strftime() 支持的格式相同。
 ```
 import logging
 logging.basicConfig(format='%(asctime)s  %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 logging.warning('is when this event was logged.')
 ```
-datefmt 参数的格式与 time.strftime() 支持的格式相同。
 指令|意义|注释
 |----|------|---|
 %a|本地化的缩写星期中每日的名称|周六为 'Sat'
@@ -74,26 +74,15 @@ datefmt 参数的格式与 time.strftime() 支持的格式相同。
 %x|本地化的适当日期表示|如 '02/22/20'
 %X|本地化的适当时间表示|如 '13:40:30'
 %y|十进制数 [00,99] 表示的没有世纪的年份
+%Y|十进制数表示的带世纪的年份
+%z|时区偏移以格式 +HHMM 或 -HHMM 形式的 UTC/GMT 的正或负时差指示，其中H表示十进制小时数字，M表示小数分钟数字 [-23:59, +23:59] |如：'+0800'
+%Z|时区名称（如果不存在时区，则不包含字符）|如：'UTC'
+%%|字面的 '%' 字符
 
-%Y
-
-十进制数表示的带世纪的年份。
-
-%z
-
-时区偏移以格式 +HHMM 或 -HHMM 形式的 UTC/GMT 的正或负时差指示，其中H表示十进制小时数字，M表示小数分钟数字 [-23:59, +23:59] 。
-
-%Z
-
-时区名称（如果不存在时区，则不包含字符）。
-
-%%
-
-字面的 '%' 字符。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyODk2Nzk5NiwtNjUyNzc3OTA3LC0xMD
+eyJoaXN0b3J5IjpbLTUxNjk5NDY3MywtNjUyNzc3OTA3LC0xMD
 QyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4ODQxNSwtMTczMDM4
 NDM5XX0=
 -->
