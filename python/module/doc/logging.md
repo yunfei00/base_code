@@ -68,9 +68,9 @@ datefmt 参数的格式与 time.strftime() 支持的格式相同。
 %M|十进制数 [00,59] 表示的分钟
 %p|本地化的 AM 或 PM|如 PM
 %S|十进制数 [00,61] 表示的秒|由于历史原因支持值 61
-%U|十进制数 [00,53] 表示的一年中的周数（星期日作为一周的第一天）。在第一个星期日之前的新年中的所有日子都被认为是在第0周。
+%U|十进制数 [00,53] 表示的一年中的周数（星期日作为一周的第一天）。在第一个星期**日**之前的新年中的所有日子都被认为是在第0周。
 %w|十进制数 [0(星期日),6] 表示的周中日
-%W|十进制数 [00,53] 表示的一年中的周数（星期一作为一周的第一天）作为。在第一个星期一之前的新年中的所有日子被认为是在第0周。
+%W|十进制数 [00,53] 表示的一年中的周数（星期一作为一周的第一天）。在第一个星期**一**之前的新年中的所有日子被认为是在第0周。
 
 (3)
 
@@ -104,7 +104,7 @@ datefmt 参数的格式与 time.strftime() 支持的格式相同。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODAxNTkwNDUsLTY1Mjc3NzkwNywtMT
+eyJoaXN0b3J5IjpbLTE0Njg1Mzc3NjMsLTY1Mjc3NzkwNywtMT
 A0MjcwODk1NywyMDM0NjgzNTQ2LDExMzUyODg0MTUsLTE3MzAz
 ODQzOV19
 -->
