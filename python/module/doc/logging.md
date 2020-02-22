@@ -79,10 +79,12 @@ logging.warning('is when this event was logged.')
 %Z|时区名称（如果不存在时区，则不包含字符）|如：'UTC'
 %%|字面的 '%' 字符
 
+# 8 logging 类
+[logging 类参考官方文档](https://docs.python.org/zh-cn/3/library/logging.html#logging.basicConfig)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNjk5NDY3MywtNjUyNzc3OTA3LC0xMD
-QyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4ODQxNSwtMTczMDM4
-NDM5XX0=
+eyJoaXN0b3J5IjpbLTE4Njk1ODEzOTksLTY1Mjc3NzkwNywtMT
+A0MjcwODk1NywyMDM0NjgzNTQ2LDExMzUyODg0MTUsLTE3MzAz
+ODQzOV19
 -->
