@@ -54,10 +54,13 @@ logging.warning('is when this event was logged.')
 ```
 datefmt 参数的格式与 time.strftime() 支持的格式相同。
 指令|意义|注释
-|----|------|
+|----|------|---|
+%a|本地化的缩写星期中每日的名称|周六为 ‘Sat’
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTkwOTY3LC02NTI3Nzc5MDcsLTEwND
-I3MDg5NTcsMjAzNDY4MzU0NiwxMTM1Mjg4NDE1LC0xNzMwMzg0
-MzldfQ==
+eyJoaXN0b3J5IjpbMTQ1MDc4MTQwMiwtNjUyNzc3OTA3LC0xMD
+QyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4ODQxNSwtMTczMDM4
+NDM5XX0=
 -->
