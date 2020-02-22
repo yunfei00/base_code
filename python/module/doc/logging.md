@@ -102,18 +102,18 @@ name|%(name)s|用于记录呼叫的记录器的名称。
 pathname|%(pathname)s|发出日志记录调用的源文件的完整路径名（如果有）
 process|%(process)d|进程ID（如果可用）
 processName|%(processName)s|进程名（如果可用）
-relativeCreated|%(relativeCreated)d|Time in milliseconds when the LogRecord was created, relative to the time the logging module was loaded.
-stack_info|不需要格式化。|Stack frame information (where available) from the bottom of the stack in the current thread, up to and including the stack frame of the logging call which resulted in the creation of this record.
+relativeCreated|%(relativeCreated)d|创建LogRecord的时间（以毫秒为单位），相对于加载日志模块的时间。
+stack_info|不需要格式化|从当前线程中的堆栈底部开始直到导致该记录创建的日志记录调用的堆栈框架（包括可用）的堆栈框架信息（如果有）。
 thread|%(thread)d|线程ID（如果可用）
 threadName|%(threadName)s|线程名（如果可用）
-```
+
 
 # 8 logging 类
 [logging 类参考官方文档](https://docs.python.org/zh-cn/3/library/logging.html#logging.basicConfig)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NTI5OTU3LC02Mzg3NDQ0ODYsLTE2NT
+eyJoaXN0b3J5IjpbODEzNTg5NzUxLC02Mzg3NDQ0ODYsLTE2NT
 MzOTM0NDYsLTY1Mjc3NzkwNywtMTA0MjcwODk1NywyMDM0Njgz
 NTQ2LDExMzUyODg0MTUsLTE3MzAzODQzOV19
 -->
