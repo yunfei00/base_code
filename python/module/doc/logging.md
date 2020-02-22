@@ -47,12 +47,17 @@ logging.warning('is when this event was logged.’)
 # 5 日志事件处理流程
 # 6 日志文件使用说明
 # 7 格式化配置
-···import logging
+```
+import logging
 logging.basicConfig(format='%(asctime)s  %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 logging.warning('is when this event was logged.')
+```
+datefmt 参数的格式与 time.strftime() 支持的格式相同。
+指令|意义|注释
+|----|------|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5MTQ0ODg4LC02NTI3Nzc5MDcsLTEwND
+eyJoaXN0b3J5IjpbLTIzOTkwOTY3LC02NTI3Nzc5MDcsLTEwND
 I3MDg5NTcsMjAzNDY4MzU0NiwxMTM1Mjg4NDE1LC0xNzMwMzg0
 MzldfQ==
 -->
