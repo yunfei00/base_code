@@ -85,32 +85,10 @@ formatter = logging.Formatter(fmt='%(asctime)s %(levelname)-7s %(message)s {file
 属性名称|格式|描述
 |----------|------|---
 |args|不需要格式化|参数元组合并`msg`为产生`message`，或将其值用于合并的dict（当只有一个参数且它是一本字典时）
-
-The tuple of arguments merged into msg to produce message, or a dict whose values are used for the merge (when there is only one argument, and it is a dictionary).
-
-asctime
-
-%(asctime)s
-
-Human-readable time when the LogRecord was created. By default this is of the form '2003-07-08 16:49:45,896' (the numbers after the comma are millisecond portion of the time).
-
-created
-
-%(created)f
-
-Time when the LogRecord was created (as returned by time.time()).
-
-exc_info
-
-不需要格式化。
-
-Exception tuple (à la sys.exc_info) or, if no exception has occurred, None.
-
-filename
-
-%(filename)s
-
-Filename portion of pathname.
+asctime|%(asctime)s|LogRecord创建时的可读时间 默认情况下，格式为“ 2003-07-08 16：49：45,896”（逗号后的数字是时间的毫秒部分）
+created|%(created)f|Time when the LogRecord was created (as returned by time.time()).
+exc_info|不需要格式化|Exception tuple (à la sys.exc_info) or, if no exception has occurred, None.
+filename|%(filename)s|Filename portion of pathname.
 
 funcName
 
@@ -214,7 +192,7 @@ threadName
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExMzQ5MjQ4LC0xNjUzMzkzNDQ2LC02NT
-I3Nzc5MDcsLTEwNDI3MDg5NTcsMjAzNDY4MzU0NiwxMTM1Mjg4
-NDE1LC0xNzMwMzg0MzldfQ==
+eyJoaXN0b3J5IjpbLTEzMTg0OTcxOTEsLTE2NTMzOTM0NDYsLT
+Y1Mjc3NzkwNywtMTA0MjcwODk1NywyMDM0NjgzNTQ2LDExMzUy
+ODg0MTUsLTE3MzAzODQzOV19
 -->
