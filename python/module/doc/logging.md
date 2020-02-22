@@ -89,48 +89,14 @@ asctime|%(asctime)s|LogRecord创建时的可读时间 默认情况下，格式�
 created|%(created)f|Time when the LogRecord was created (as returned by time.time()).
 exc_info|不需要格式化|Exception tuple (à la sys.exc_info) or, if no exception has occurred, None.
 filename|%(filename)s|Filename portion of pathname.
-
-funcName
-
-%(funcName)s
-
-Name of function containing the logging call.
-
-levelname
-
-%(levelname)s
-
-Text logging level for the message ('DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL').
-
-levelno
-
-%(levelno)s
-
-Numeric logging level for the message (DEBUG, INFO, WARNING, ERROR, CRITICAL).
-
-lineno
-
-%(lineno)d
-
-Source line number where the logging call was issued (if available).
-
-message
-
-%(message)s
-
+funcName|%(funcName)s|Name of function containing the logging call.
+levelname|%(levelname)s|Text logging level for the message ('DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL').
+levelno|%(levelno)s|Numeric logging level for the message (DEBUG, INFO, WARNING, ERROR, CRITICAL).
+lineno|%(lineno)d|Source line number where the logging call was issued (if available).
+message|%(message)s|
 The logged message, computed as msg % args. This is set when Formatter.format() is invoked.
-
-module
-
-%(module)s
-
-模块 (filename 的名称部分)。
-
-msecs
-
-%(msecs)d
-
-Millisecond portion of the time when the LogRecord was created.
+module|%(module)s|模块 (filename 的名称部分)。
+msecs|%(msecs)d|Millisecond portion of the time when the LogRecord was created.
 
 msg
 
@@ -192,7 +158,7 @@ threadName
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTg0OTcxOTEsLTE2NTMzOTM0NDYsLT
+eyJoaXN0b3J5IjpbLTEyMTQ1NDM4OTcsLTE2NTMzOTM0NDYsLT
 Y1Mjc3NzkwNywtMTA0MjcwODk1NywyMDM0NjgzNTQ2LDExMzUy
 ODg0MTUsLTE3MzAzODQzOV19
 -->
