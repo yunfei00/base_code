@@ -44,11 +44,52 @@ NOTSET|0|
 所追踪事件可以以不同形式处理。最简单的方式是输出到控制台。另一种常用的方式是写入磁盘文件。
 
 # 4 配置文件使用
+[配置文件更多信息参考官网](https://docs.python.org/zh-cn/3/library/logging.config.html#logging.config.fileConfig)
 1. 配置文件
+```
+import logging
+import logging.config
+
+logging.config.fileConfig('logging.conf')
+
+# create logger
+logger = logging.getLogger('simpleExample')
+```
+2. 配置文件内容
+```
+[loggers]
+keys=root,simpleExample
+
+[handlers]
+keys=consoleHandler,fileHandler
+
+[formatters]
+keys=simpleFormatter
+
+[logger_root]
+level=DEBUG
+handlers=consoleHandler
+
+[logger_simpleExample]
+level=DEBUG
+handlers=consoleHandler
+qualname=simpleExample
+propagate=0
+
+[handler_consoleHandler]
+class=StreamHandler
+level=DEBUG
+formatter=simpleFormatter
+args=(sys.stdout,)
+
+[formatter_simpleFormatter]
+format=%(asctime)s - %(name)s - %(levelname)s - %(message)s
+datefmt=
+```
 # 5 日志事件处理流程
 # 6 日志文件使用说明
 # 7 格式化配置
-1. 格式化时间，datefmt 参数的格式与 time.strftime() 支持的格式相同。
+1. 时间格式化，datefmt 参数的格式与 time.strftime() 支持的格式相同。
 ```
 import logging
 logging.basicConfig(format='%(asctime)s  %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
@@ -79,7 +120,7 @@ logging.warning('is when this event was logged.')
 %z|时区偏移以格式 +HHMM 或 -HHMM 形式的 UTC/GMT 的正或负时差指示，其中H表示十进制小时数字，M表示小数分钟数字 [-23:59, +23:59] |如：'+0800'
 %Z|时区名称（如果不存在时区，则不包含字符）|如：'UTC'
 %%|字面的 '%' 字符
-2. 其他格式化参数
+2. 参数格式化
 ```
 formatter = logging.Formatter(fmt='%(asctime)s %(levelname)-7s %(message)s {filename:%(filename)s func:%(funcName)s line:%(lineno)d }', datefmt='%Y-%m-%d %H:%M:%S')
 ```
@@ -107,13 +148,13 @@ stack_info|不需要格式化|从当前线程中的堆栈底部开始直到导�
 thread|%(thread)d|线程ID（如果可用）
 threadName|%(threadName)s|线程名（如果可用）
 
-
 # 8 logging 类
 [logging 类参考官方文档](https://docs.python.org/zh-cn/3/library/logging.html#logging.basicConfig)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEzNTg5NzUxLC02Mzg3NDQ0ODYsLTE2NT
-MzOTM0NDYsLTY1Mjc3NzkwNywtMTA0MjcwODk1NywyMDM0Njgz
-NTQ2LDExMzUyODg0MTUsLTE3MzAzODQzOV19
+eyJoaXN0b3J5IjpbOTIzOTYwNTY5LDgxMzU4OTc1MSwtNjM4Nz
+Q0NDg2LC0xNjUzMzkzNDQ2LC02NTI3Nzc5MDcsLTEwNDI3MDg5
+NTcsMjAzNDY4MzU0NiwxMTM1Mjg4NDE1LC0xNzMwMzg0MzldfQ
+==
 -->
