@@ -97,31 +97,10 @@ message|%(message)s|
 The logged message, computed as msg % args. This is set when Formatter.format() is invoked.
 module|%(module)s|模块 (filename 的名称部分)。
 msecs|%(msecs)d|Millisecond portion of the time when the LogRecord was created.
-
-msg
-
-不需要格式化。
-
-The format string passed in the original logging call. Merged with args to produce message, or an arbitrary object (see 使用任意对象作为消息).
-
-name
-
-%(name)s
-
-Name of the logger used to log the call.
-
-pathname
-
-%(pathname)s
-
-Full pathname of the source file where the logging call was issued (if available).
-
-process
-
-%(process)d
-
-进程ID（如果可用）
-
+msg|不需要格式化。|The format string passed in the original logging call. Merged with args to produce message, or an arbitrary object (see 使用任意对象作为消息).
+name|%(name)s|Name of the logger used to log the call.
+pathname|%(pathname)s|Full pathname of the source file where the logging call was issued (if available).
+process|%(process)d|进程ID（如果可用）
 processName
 
 %(processName)s
@@ -134,23 +113,9 @@ relativeCreated
 
 Time in milliseconds when the LogRecord was created, relative to the time the logging module was loaded.
 
-stack_info
-
-不需要格式化。
-
-Stack frame information (where available) from the bottom of the stack in the current thread, up to and including the stack frame of the logging call which resulted in the creation of this record.
-
-thread
-
-%(thread)d
-
-线程ID（如果可用）
-
-threadName
-
-%(threadName)s
-
-线程名（如果可用）
+stack_info|不需要格式化。|Stack frame information (where available) from the bottom of the stack in the current thread, up to and including the stack frame of the logging call which resulted in the creation of this record.
+thread|%(thread)d|线程ID（如果可用）
+threadName|%(threadName)s|线程名（如果可用）
 ```
 
 # 8 logging 类
@@ -158,7 +123,7 @@ threadName
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTQ1NDM4OTcsLTE2NTMzOTM0NDYsLT
-Y1Mjc3NzkwNywtMTA0MjcwODk1NywyMDM0NjgzNTQ2LDExMzUy
-ODg0MTUsLTE3MzAzODQzOV19
+eyJoaXN0b3J5IjpbMjAzNDExMTAwNSwtMTY1MzM5MzQ0NiwtNj
+UyNzc3OTA3LC0xMDQyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4
+ODQxNSwtMTczMDM4NDM5XX0=
 -->
