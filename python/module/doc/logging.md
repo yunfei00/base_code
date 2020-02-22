@@ -28,8 +28,6 @@ logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S
 logging.warning('is when this event was logged.’)
 12/12/2010 11:46:36 AM is when this event was logged.
 ```
-5 高级用法
-logger = logging.getLogger(__name__)
 
 # 3 日志级别
 
@@ -44,5 +42,6 @@ logger = logging.getLogger(__name__)
 默认的级别是``WARNING``，意味着只会追踪该级别及以上的事件，除非更改日志配置。
 所追踪事件可以以不同形式处理。最简单的方式是输出到控制台。另一种常用的方式是写入磁盘文件。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTI4ODQxNSwtMTczMDM4NDM5XX0=
+eyJoaXN0b3J5IjpbMjAzNDY4MzU0NiwxMTM1Mjg4NDE1LC0xNz
+MwMzg0MzldfQ==
 -->
