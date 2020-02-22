@@ -71,20 +71,9 @@ datefmt 参数的格式与 time.strftime() 支持的格式相同。
 %U|十进制数 [00,53] 表示的一年中的周数（星期日作为一周的第一天）。在第一个星期**日**之前的新年中的所有日子都被认为是在第0周。
 %w|十进制数 [0(星期日),6] 表示的周中日
 %W|十进制数 [00,53] 表示的一年中的周数（星期一作为一周的第一天）。在第一个星期**一**之前的新年中的所有日子被认为是在第0周。
-
-(3)
-
-%x
-
-本地化的适当日期表示。
-
-%X
-
-本地化的适当时间表示。
-
-%y
-
-十进制数 [00,99] 表示的没有世纪的年份。
+%x|本地化的适当日期表示|如 '02/22/20'
+%X|本地化的适当时间表示|如 '13:40:30'
+%y|十进制数 [00,99] 表示的没有世纪的年份
 
 %Y
 
@@ -104,7 +93,7 @@ datefmt 参数的格式与 time.strftime() 支持的格式相同。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njg1Mzc3NjMsLTY1Mjc3NzkwNywtMT
-A0MjcwODk1NywyMDM0NjgzNTQ2LDExMzUyODg0MTUsLTE3MzAz
-ODQzOV19
+eyJoaXN0b3J5IjpbLTUyODk2Nzk5NiwtNjUyNzc3OTA3LC0xMD
+QyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4ODQxNSwtMTczMDM4
+NDM5XX0=
 -->
