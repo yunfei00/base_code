@@ -78,13 +78,14 @@ logging.warning('is when this event was logged.')
 %z|时区偏移以格式 +HHMM 或 -HHMM 形式的 UTC/GMT 的正或负时差指示，其中H表示十进制小时数字，M表示小数分钟数字 [-23:59, +23:59] |如：'+0800'
 %Z|时区名称（如果不存在时区，则不包含字符）|如：'UTC'
 %%|字面的 '%' 字符
+2. 其他格式化参数
 
 # 8 logging 类
 [logging 类参考官方文档](https://docs.python.org/zh-cn/3/library/logging.html#logging.basicConfig)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njk1ODEzOTksLTY1Mjc3NzkwNywtMT
-A0MjcwODk1NywyMDM0NjgzNTQ2LDExMzUyODg0MTUsLTE3MzAz
-ODQzOV19
+eyJoaXN0b3J5IjpbMTMzMzkzMjc3OCwtNjUyNzc3OTA3LC0xMD
+QyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4ODQxNSwtMTczMDM4
+NDM5XX0=
 -->
