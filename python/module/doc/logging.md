@@ -64,7 +64,7 @@ keys=root
 keys=consoleHandler,fileHandler
 
 [formatters]
-keys=ch,fh
+keys=simpleFormatter
 
 [logger_root]
 level=INFO
@@ -150,8 +150,8 @@ threadName|%(threadName)s|线程名（如果可用）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDI5ODg2Miw4MTM1ODk3NTEsLTYzOD
-c0NDQ4NiwtMTY1MzM5MzQ0NiwtNjUyNzc3OTA3LC0xMDQyNzA4
-OTU3LDIwMzQ2ODM1NDYsMTEzNTI4ODQxNSwtMTczMDM4NDM5XX
-0=
+eyJoaXN0b3J5IjpbLTExMTg2Njk0NzEsLTI0NDI5ODg2Miw4MT
+M1ODk3NTEsLTYzODc0NDQ4NiwtMTY1MzM5MzQ0NiwtNjUyNzc3
+OTA3LC0xMDQyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4ODQxNS
+wtMTczMDM4NDM5XX0=
 -->
