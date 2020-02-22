@@ -96,10 +96,10 @@ levelno|%(levelno)s|日志级别编号
 lineno|%(lineno)d|行号
 message|%(message)s|消息内容
 module|%(module)s|模块 (filename 的名称部分)|模块名
-msecs|%(msecs)d|Millisecond portion of the time when the LogRecord was created.
-msg|不需要格式化。|The format string passed in the original logging call. Merged with args to produce message, or an arbitrary object (see 使用任意对象作为消息).
-name|%(name)s|Name of the logger used to log the call.
-pathname|%(pathname)s|Full pathname of the source file where the logging call was issued (if available).
+msecs|%(msecs)d|LogRecord创建时的时间的毫秒部分
+msg|不需要格式化|The format string passed in the original logging call. Merged with args to produce message, or an arbitrary object (see 使用任意对象作为消息).
+name|%(name)s|用于记录呼叫的记录器的名称。
+pathname|%(pathname)s|发出日志记录调用的源文件的完整路径名（如果有）
 process|%(process)d|进程ID（如果可用）
 processName|%(processName)s|进程名（如果可用）
 relativeCreated|%(relativeCreated)d|Time in milliseconds when the LogRecord was created, relative to the time the logging module was loaded.
@@ -113,7 +113,7 @@ threadName|%(threadName)s|线程名（如果可用）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODc0NDQ4NiwtMTY1MzM5MzQ0NiwtNj
-UyNzc3OTA3LC0xMDQyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4
-ODQxNSwtMTczMDM4NDM5XX0=
+eyJoaXN0b3J5IjpbLTQ0NTI5OTU3LC02Mzg3NDQ0ODYsLTE2NT
+MzOTM0NDYsLTY1Mjc3NzkwNywtMTA0MjcwODk1NywyMDM0Njgz
+NTQ2LDExMzUyODg0MTUsLTE3MzAzODQzOV19
 -->
