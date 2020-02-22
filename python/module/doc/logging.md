@@ -83,10 +83,8 @@ logging.warning('is when this event was logged.')
 formatter = logging.Formatter(fmt='%(asctime)s %(levelname)-7s %(message)s {filename:%(filename)s func:%(funcName)s line:%(lineno)d }', datefmt='%Y-%m-%d %H:%M:%S')
 ```
 属性名称|格式|描述
--
-args
-
-不需要格式化。
+|----------|------|---
+|args|不需要格式化|参数元组合并`msg`为产生`message`，或将其值用于合并的dict（当只有一个参数且它是一本字典时）
 
 The tuple of arguments merged into msg to produce message, or a dict whose values are used for the merge (when there is only one argument, and it is a dictionary).
 
@@ -216,7 +214,7 @@ threadName
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzEwNTA5MSwtMTY1MzM5MzQ0NiwtNj
-UyNzc3OTA3LC0xMDQyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4
-ODQxNSwtMTczMDM4NDM5XX0=
+eyJoaXN0b3J5IjpbNTExMzQ5MjQ4LC0xNjUzMzkzNDQ2LC02NT
+I3Nzc5MDcsLTEwNDI3MDg5NTcsMjAzNDY4MzU0NiwxMTM1Mjg4
+NDE1LC0xNzMwMzg0MzldfQ==
 -->
