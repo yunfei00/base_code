@@ -41,7 +41,11 @@ logging.warning('is when this event was logged.’)
 
 默认的级别是``WARNING``，意味着只会追踪该级别及以上的事件，除非更改日志配置。
 所追踪事件可以以不同形式处理。最简单的方式是输出到控制台。另一种常用的方式是写入磁盘文件。
+
+# 4 配置文件使用
+1. 配置文件
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDY4MzU0NiwxMTM1Mjg4NDE1LC0xNz
-MwMzg0MzldfQ==
+eyJoaXN0b3J5IjpbMTg3MDA3MzEzMywyMDM0NjgzNTQ2LDExMz
+UyODg0MTUsLTE3MzAzODQzOV19
 -->
