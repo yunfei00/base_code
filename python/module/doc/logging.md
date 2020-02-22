@@ -55,28 +55,13 @@ logging.warning('is when this event was logged.')
 datefmt 参数的格式与 time.strftime() 支持的格式相同。
 指令|意义|注释
 |----|------|---|
-%a|本地化的缩写星期中每日的名称|周六为 ‘Sat’
-%A|本地化的星期中每日的完整名称|周六为 
-
-%b
-
-本地化的月缩写名称。
-
-%B
-
-本地化的月完整名称。
-
-%c
-
-本地化的适当日期和时间表示。
-
-%d
-
-十进制数 [01,31] 表示的月中日。
-
-%H
-
-十进制数 [00,23] 表示的小时（24小时制）。
+%a|本地化的缩写星期中每日的名称|周六为 'Sat'
+%A|本地化的星期中每日的完整名称|周六为 'Saturday'
+%b|本地化的月缩写名称|二月为 'Feb'
+%B|本地化的月完整名称|二月为 'February'
+%c|本地化的适当日期和时间表示|
+%d|十进制数 [01,31] 表示的月中日|
+%H|十进制数 [00,23] 表示的小时（24小时制）。
 
 %I
 
@@ -152,7 +137,7 @@ datefmt 参数的格式与 time.strftime() 支持的格式相同。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwMTI2MzkzLC02NTI3Nzc5MDcsLTEwND
-I3MDg5NTcsMjAzNDY4MzU0NiwxMTM1Mjg4NDE1LC0xNzMwMzg0
-MzldfQ==
+eyJoaXN0b3J5IjpbLTkwMzUyNDk5NiwtNjUyNzc3OTA3LC0xMD
+QyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4ODQxNSwtMTczMDM4
+NDM5XX0=
 -->
