@@ -44,8 +44,9 @@ logging.warning('is when this event was logged.’)
 
 # 4 配置文件使用
 1. 配置文件
-
+# 5 日志事件处理流程
+# 6 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MDA3MzEzMywyMDM0NjgzNTQ2LDExMz
-UyODg0MTUsLTE3MzAzODQzOV19
+eyJoaXN0b3J5IjpbLTEwNDI3MDg5NTcsMjAzNDY4MzU0NiwxMT
+M1Mjg4NDE1LC0xNzMwMzg0MzldfQ==
 -->
