@@ -79,13 +79,17 @@ logging.warning('is when this event was logged.')
 %Z|时区名称（如果不存在时区，则不包含字符）|如：'UTC'
 %%|字面的 '%' 字符
 2. 其他格式化参数
+```
+formatter = logging.Formatter(fmt='%(asctime)s %(levelname)-7s %(message)s {filename:%(filename)s func:%(funcName)s line:%(lineno)d }', datefmt='%Y-%m-%d %H:%M:%S')
+
+```
 
 # 8 logging 类
 [logging 类参考官方文档](https://docs.python.org/zh-cn/3/library/logging.html#logging.basicConfig)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzkzMjc3OCwtNjUyNzc3OTA3LC0xMD
-QyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4ODQxNSwtMTczMDM4
-NDM5XX0=
+eyJoaXN0b3J5IjpbLTE2NTMzOTM0NDYsLTY1Mjc3NzkwNywtMT
+A0MjcwODk1NywyMDM0NjgzNTQ2LDExMzUyODg0MTUsLTE3MzAz
+ODQzOV19
 -->
