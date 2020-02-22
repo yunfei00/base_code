@@ -31,13 +31,13 @@ logging.warning('is when this event was logged.’)
 
 # 3 日志级别
 
-|级别|说明|
-|-----|---|
-|DEBUG|细节信息，仅当诊断问题时适用。
-|INFO|确认程序按预期运行
-|WARNING|表明有已经或即将发生的意外（例如：磁盘空间不足）。程序仍按预期进行
-|ERROR|由于严重的问题，程序的某些功能已经不能正常执行
-|CRITICAL|严重的错误，表明程序已不能继续执行
+|级别|数值|说明|
+|-----|------|---|
+|DEBUG|10|细节信息，仅当诊断问题时适用。
+|INFO|20|确认程序按预期运行
+|WARNING|30|表明有已经或即将发生的意外（例如：磁盘空间不足）。程序仍按预期进行
+|ERROR|40|由于严重的问题，程序的某些功能已经不能正常执行
+|CRITICAL|50|严重的错误，表明程序已不能继续执行
 
 默认的级别是``WARNING``，意味着只会追踪该级别及以上的事件，除非更改日志配置。
 所追踪事件可以以不同形式处理。最简单的方式是输出到控制台。另一种常用的方式是写入磁盘文件。
@@ -91,7 +91,7 @@ exc_info|不需要格式化|异常元组（la sys.exc_info），如果未发生�
 filename|%(filename)s|日志文件名称
 funcName|%(funcName)s|函数名
 levelname|%(levelname)s|日志级别 ('DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL').
-levelno|%(levelno)s|Numeric logging level for the message (DEBUG, INFO, WARNING, ERROR, CRITICAL).
+levelno|%(levelno)s|日志级别编号
 lineno|%(lineno)d|Source line number where the logging call was issued (if available).
 message|%(message)s|The logged message, computed as msg % args. This is set when Formatter.format() is invoked.
 module|%(module)s|模块 (filename 的名称部分)。
@@ -112,7 +112,7 @@ threadName|%(threadName)s|线程名（如果可用）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMTg4NjY1NiwtMTY1MzM5MzQ0NiwtNj
+eyJoaXN0b3J5IjpbMTk0NzI1NjMwMiwtMTY1MzM5MzQ0NiwtNj
 UyNzc3OTA3LC0xMDQyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4
 ODQxNSwtMTczMDM4NDM5XX0=
 -->
