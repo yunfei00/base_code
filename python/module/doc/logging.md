@@ -58,33 +58,15 @@ logger = logging.getLogger('simpleExample')
 2. 配置文件内容
 ```
 [loggers]
-keys=root,simpleExample
+keys=root
 
 [handlers]
 keys=consoleHandler,fileHandler
 
 [formatters]
-keys=simpleFormatter
+keys=ch,fh
 
-[logger_root]
-level=DEBUG
-handlers=consoleHandler
 
-[logger_simpleExample]
-level=DEBUG
-handlers=consoleHandler
-qualname=simpleExample
-propagate=0
-
-[handler_consoleHandler]
-class=StreamHandler
-level=DEBUG
-formatter=simpleFormatter
-args=(sys.stdout,)
-
-[formatter_simpleFormatter]
-format=%(asctime)s - %(name)s - %(levelname)s - %(message)s
-datefmt=
 ```
 # 5 日志事件处理流程
 # 6 日志文件使用说明
@@ -153,8 +135,8 @@ threadName|%(threadName)s|线程名（如果可用）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzOTYwNTY5LDgxMzU4OTc1MSwtNjM4Nz
-Q0NDg2LC0xNjUzMzkzNDQ2LC02NTI3Nzc5MDcsLTEwNDI3MDg5
-NTcsMjAzNDY4MzU0NiwxMTM1Mjg4NDE1LC0xNzMwMzg0MzldfQ
-==
+eyJoaXN0b3J5IjpbLTE2MjAyNTM3OSw4MTM1ODk3NTEsLTYzOD
+c0NDQ4NiwtMTY1MzM5MzQ0NiwtNjUyNzc3OTA3LC0xMDQyNzA4
+OTU3LDIwMzQ2ODM1NDYsMTEzNTI4ODQxNSwtMTczMDM4NDM5XX
+0=
 -->
