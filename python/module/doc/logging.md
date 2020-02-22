@@ -87,11 +87,10 @@ formatter = logging.Formatter(fmt='%(asctime)s %(levelname)-7s %(message)s {file
 |args|不需要格式化|参数元组合并`msg`为产生`message`，或将其值用于合并的dict（当只有一个参数且它是一本字典时）
 asctime|%(asctime)s|LogRecord创建时的可读时间 默认情况下，格式为“ 2003-07-08 16：49：45,896”（逗号后的数字是时间的毫秒部分）
 created|%(created)f|LogRecord创建的时间（由返回time.time()）
-exc_info|不需要格式化|	
-异常元组（la sys.exc_info），或者，如果未发生异常，则None。
-filename|%(filename)s|Filename portion of pathname.
-funcName|%(funcName)s|Name of function containing the logging call.
-levelname|%(levelname)s|Text logging level for the message ('DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL').
+exc_info|不需要格式化|异常元组（la sys.exc_info），如果未发生异常，则None。
+filename|%(filename)s|日志文件名称
+funcName|%(funcName)s|函数名
+levelname|%(levelname)s|日志级别 ('DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL').
 levelno|%(levelno)s|Numeric logging level for the message (DEBUG, INFO, WARNING, ERROR, CRITICAL).
 lineno|%(lineno)d|Source line number where the logging call was issued (if available).
 message|%(message)s|The logged message, computed as msg % args. This is set when Formatter.format() is invoked.
@@ -113,7 +112,7 @@ threadName|%(threadName)s|线程名（如果可用）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzkxMzY4NDksLTE2NTMzOTM0NDYsLT
-Y1Mjc3NzkwNywtMTA0MjcwODk1NywyMDM0NjgzNTQ2LDExMzUy
-ODg0MTUsLTE3MzAzODQzOV19
+eyJoaXN0b3J5IjpbMTgzMTg4NjY1NiwtMTY1MzM5MzQ0NiwtNj
+UyNzc3OTA3LC0xMDQyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4
+ODQxNSwtMTczMDM4NDM5XX0=
 -->
