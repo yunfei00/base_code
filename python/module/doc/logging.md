@@ -60,30 +60,13 @@ datefmt 参数的格式与 time.strftime() 支持的格式相同。
 %b|本地化的月缩写名称|二月为 'Feb'
 %B|本地化的月完整名称|二月为 'February'
 %c|本地化的适当日期和时间表示|当前时间：Sat Feb 22 13:28:57 2020
-%d|十进制数 [01,31] 表示的月中日
-%H|十进制数 [00,23] 表示的小时（24小时制）。
-
-%I
-
-十进制数 [01,12] 表示的小时（12小时制）。
-
-%j
-
-十进制数 [001,366] 表示的年中日。
-
-%m
-
-十进制数 [01,12] 表示的月。
-
-%M
-
-十进制数 [00,59] 表示的分钟。
-
-%p
-
-本地化的 AM 或 PM 。
-
-(1)
+%d|十进制数 [01,31] 表示的月中日|哪一天
+%H|十进制数 [00,23] 表示的小时（24小时制）|如：13
+%I|十进制数 [01,12] 表示的小时（12小时制）|如：01
+%j|十进制数 [001,366] 表示的年中日|如2020年2月22日 为'053'
+%m|十进制数 [01,12] 表示的月
+%M|十进制数 [00,59] 表示的分钟
+%p|本地化的 AM 或 PM|r
 
 %S
 
@@ -137,7 +120,7 @@ datefmt 参数的格式与 time.strftime() 支持的格式相同。
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5MzgyMDksLTY1Mjc3NzkwNywtMTA0Mj
-cwODk1NywyMDM0NjgzNTQ2LDExMzUyODg0MTUsLTE3MzAzODQz
-OV19
+eyJoaXN0b3J5IjpbLTQ0MTY5NTMxOCwtNjUyNzc3OTA3LC0xMD
+QyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4ODQxNSwtMTczMDM4
+NDM5XX0=
 -->
