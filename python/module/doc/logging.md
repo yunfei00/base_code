@@ -66,7 +66,22 @@ keys=consoleHandler,fileHandler
 [formatters]
 keys=ch,fh
 
+[logger_root]
+level=INFO
+handlers=consoleHandler
 
+[handler_consoleHandler]
+class=StreamHandler
+level=INFO
+formatter=simpleFormatter
+
+[handler_fileHandler]
+class=FileHandler
+level=DEBUG
+formatter=simpleFormatter
+
+[formatter_simpleFormatter]
+format=%(asctime)s - %(levelname)s - %(message)s {filename:%(filename)s func:%(funcName)s line:%(lineno)d }
 ```
 # 5 日志事件处理流程
 # 6 日志文件使用说明
@@ -135,7 +150,7 @@ threadName|%(threadName)s|线程名（如果可用）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjAyNTM3OSw4MTM1ODk3NTEsLTYzOD
+eyJoaXN0b3J5IjpbLTI0NDI5ODg2Miw4MTM1ODk3NTEsLTYzOD
 c0NDQ4NiwtMTY1MzM5MzQ0NiwtNjUyNzc3OTA3LC0xMDQyNzA4
 OTU3LDIwMzQ2ODM1NDYsMTEzNTI4ODQxNSwtMTczMDM4NDM5XX
 0=
