@@ -46,8 +46,13 @@ logging.warning('is when this event was logged.’)
 1. 配置文件
 # 5 日志事件处理流程
 # 6 日志文件使用说明
+# 7 格式化配置
+···import logging
+logging.basicConfig(format='%(asctime)s  %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+logging.warning('is when this event was logged.')
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1Mjc3NzkwNywtMTA0MjcwODk1NywyMD
-M0NjgzNTQ2LDExMzUyODg0MTUsLTE3MzAzODQzOV19
+eyJoaXN0b3J5IjpbNDc5MTQ0ODg4LC02NTI3Nzc5MDcsLTEwND
+I3MDg5NTcsMjAzNDY4MzU0NiwxMTM1Mjg4NDE1LC0xNzMwMzg0
+MzldfQ==
 -->
