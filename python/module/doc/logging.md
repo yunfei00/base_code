@@ -95,7 +95,7 @@ levelname|%(levelname)s|日志级别 ('DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRIT
 levelno|%(levelno)s|日志级别编号
 lineno|%(lineno)d|行号
 message|%(message)s|消息内容
-module|%(module)s|模块 (filename 的名称部分)。
+module|%(module)s|模块 (filename 的名称部分)|模块名
 msecs|%(msecs)d|Millisecond portion of the time when the LogRecord was created.
 msg|不需要格式化。|The format string passed in the original logging call. Merged with args to produce message, or an arbitrary object (see 使用任意对象作为消息).
 name|%(name)s|Name of the logger used to log the call.
@@ -113,7 +113,7 @@ threadName|%(threadName)s|线程名（如果可用）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTE5MjU3LC0xNjUzMzkzNDQ2LC02NT
-I3Nzc5MDcsLTEwNDI3MDg5NTcsMjAzNDY4MzU0NiwxMTM1Mjg4
-NDE1LC0xNzMwMzg0MzldfQ==
+eyJoaXN0b3J5IjpbLTYzODc0NDQ4NiwtMTY1MzM5MzQ0NiwtNj
+UyNzc3OTA3LC0xMDQyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4
+ODQxNSwtMTczMDM4NDM5XX0=
 -->
