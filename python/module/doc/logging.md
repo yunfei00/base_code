@@ -92,10 +92,7 @@ args=('log.txt', 'a')
 format=%(asctime)s - %(levelname)s - %(message)s {filename:%(filename)s func:%(funcName)s line:%(lineno)d }
 ```
 # 5 日志事件处理流程
-![enter image description here](python/module/resource/logger.jpg)
-
-
-![enter image description here](https://github.com/yunfei00/base_code/python/module/resource/logger.jpg)
+![ enter imagdssg ](../resource/logger.jpg)
 # 6 日志文件使用说明
 # 7 格式化配置
 1. 时间格式化，datefmt 参数的格式与 time.strftime() 支持的格式相同。
@@ -162,8 +159,8 @@ threadName|%(threadName)s|线程名（如果可用）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2NDgyMTE3LC0xMTE4NjY5NDcxLC0yND
-QyOTg4NjIsODEzNTg5NzUxLC02Mzg3NDQ0ODYsLTE2NTMzOTM0
-NDYsLTY1Mjc3NzkwNywtMTA0MjcwODk1NywyMDM0NjgzNTQ2LD
-ExMzUyODg0MTUsLTE3MzAzODQzOV19
+eyJoaXN0b3J5IjpbLTI2NjE5ODcwNCwtMTExODY2OTQ3MSwtMj
+Q0Mjk4ODYyLDgxMzU4OTc1MSwtNjM4NzQ0NDg2LC0xNjUzMzkz
+NDQ2LC02NTI3Nzc5MDcsLTEwNDI3MDg5NTcsMjAzNDY4MzU0Ni
+wxMTM1Mjg4NDE1LC0xNzMwMzg0MzldfQ==
 -->
