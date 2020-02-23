@@ -92,7 +92,7 @@ args=('log.txt', 'a')
 format=%(asctime)s - %(levelname)s - %(message)s {filename:%(filename)s func:%(funcName)s line:%(lineno)d }
 ```
 # 5 日志事件处理流程
-![ enter imagdssg ](../resource/logger.jpg)
+![ enter imagdssg ](https://raw.githubusercontent.com/yunfei00/base_code/master/python/module/resource/logger.jpg)
 # 6 日志文件使用说明
 # 7 格式化配置
 1. 时间格式化，datefmt 参数的格式与 time.strftime() 支持的格式相同。
