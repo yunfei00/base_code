@@ -95,7 +95,7 @@ format=%(asctime)s - %(levelname)s - %(message)s {filename:%(filename)s func:%(f
 ![ 流程图 ](https://raw.githubusercontent.com/yunfei00/base_code/master/python/module/resource/logger.jpg)
 # 6 日志文件使用说明
 ```
-f
+from 	
 ```
 # 7 格式化配置
 1. 时间格式化，datefmt 参数的格式与 time.strftime() 支持的格式相同。
@@ -162,7 +162,7 @@ threadName|%(threadName)s|线程名（如果可用）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzgwNjM4MTAsLTI2NjE5ODcwNCwtMT
+eyJoaXN0b3J5IjpbLTExNjMzNjM4MDIsLTI2NjE5ODcwNCwtMT
 ExODY2OTQ3MSwtMjQ0Mjk4ODYyLDgxMzU4OTc1MSwtNjM4NzQ0
 NDg2LC0xNjUzMzkzNDQ2LC02NTI3Nzc5MDcsLTEwNDI3MDg5NT
 csMjAzNDY4MzU0NiwxMTM1Mjg4NDE1LC0xNzMwMzg0MzldfQ==
