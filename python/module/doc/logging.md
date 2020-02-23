@@ -58,7 +58,7 @@ logger = logging.getLogger('simpleExample')
 2. 配置文件内容
 ```
 [loggers]
-keys=root
+keys=root,simpleExample
 
 [handlers]
 keys=consoleHandler,fileHandler
@@ -67,23 +67,35 @@ keys=consoleHandler,fileHandler
 keys=simpleFormatter
 
 [logger_root]
-level=INFO
+level=DEBUG
 handlers=consoleHandler
+
+[logger_simpleExample]
+level=DEBUG
+handlers=consoleHandler,fileHandler
+qualname=simpleExample
+propagate=0
 
 [handler_consoleHandler]
 class=StreamHandler
 level=INFO
 formatter=simpleFormatter
+args=(sys.stdout,)
 
 [handler_fileHandler]
 class=FileHandler
 level=DEBUG
 formatter=simpleFormatter
+args=('log.txt', 'a')
 
 [formatter_simpleFormatter]
 format=%(asctime)s - %(levelname)s - %(message)s {filename:%(filename)s func:%(funcName)s line:%(lineno)d }
 ```
 # 5 日志事件处理流程
+![enter image description here](python/module/resource/logger.jpg)
+
+
+![enter image description here](https://github.com/yunfei00/base_code/python/module/resource/logger.jpg)
 # 6 日志文件使用说明
 # 7 格式化配置
 1. 时间格式化，datefmt 参数的格式与 time.strftime() 支持的格式相同。
@@ -150,8 +162,8 @@ threadName|%(threadName)s|线程名（如果可用）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTg2Njk0NzEsLTI0NDI5ODg2Miw4MT
-M1ODk3NTEsLTYzODc0NDQ4NiwtMTY1MzM5MzQ0NiwtNjUyNzc3
-OTA3LC0xMDQyNzA4OTU3LDIwMzQ2ODM1NDYsMTEzNTI4ODQxNS
-wtMTczMDM4NDM5XX0=
+eyJoaXN0b3J5IjpbMzI2NDgyMTE3LC0xMTE4NjY5NDcxLC0yND
+QyOTg4NjIsODEzNTg5NzUxLC02Mzg3NDQ0ODYsLTE2NTMzOTM0
+NDYsLTY1Mjc3NzkwNywtMTA0MjcwODk1NywyMDM0NjgzNTQ2LD
+ExMzUyODg0MTUsLTE3MzAzODQzOV19
 -->
