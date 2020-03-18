@@ -23,10 +23,12 @@ C++ 中的Lambda 表达式用于定义并创建匿名的函数对象，以简化
 4. ->函数返回值
 5. {}函数体
 6. Lambda表达式定义了匿名函数名，使用则需要后面增加()进行调用。
+
 举例：
+```
 1. [=](){int a = 0;}
 2. int s = [=]()->int{return 100;}()
-
+```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTIwMzQ4NTkzMDcsMTQ0MzA5NTYwNV19
 -->
