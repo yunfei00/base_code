@@ -1,10 +1,12 @@
 C++ 中的Lambda 表达式用于定义并创建匿名的函数对象，以简化变成工作。
 
 基本构成：
+```
 [capture](parameters) mutable->return-type
 {
 	statement
 }
+```
 [函数对象参数](操作符重载函数参数)mutable->返回值(函数体)
 
 1. 函数对象参数：
@@ -17,9 +19,14 @@ C++ 中的Lambda 表达式用于定义并创建匿名的函数对象，以简化
 [a,b]:函数体内可以使用a，b
 [&a]:函数体内引用a
 2. 操作符重载函数参数部分可以为空
-3. multable可以省略，
-
+3. multable可以省略
+4. ->函数返回值
+5. {}函数体
+6. Lambda表达式定义了匿名函数名，使用则需要后面增加()进行调用。
+举例：
+1. [=](){int a = 0;}
+2. int s = [=]()->int{return 100;}()
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzA5NTYwNV19
+eyJoaXN0b3J5IjpbLTIwMzQ4NTkzMDcsMTQ0MzA5NTYwNV19
 -->
