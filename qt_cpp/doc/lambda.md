@@ -8,10 +8,12 @@ C++ 中的Lambda 表达式用于定义并创建匿名的函数对象，以简化
 [函数对象参数](操作符重载函数参数)mutable->返回值(函数体)
 
 1. 函数对象参数：
-[],表示
+[],标识一个lambda的开始。
+[]:中括号为空，标识没有使用任何函数对象参数
+[=]:
 2. 的
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTUyNjY1M119
+eyJoaXN0b3J5IjpbMjEyNDY2MDIxNl19
 -->
