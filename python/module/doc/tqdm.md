@@ -48,12 +48,17 @@ Processing d: 100%|████████████████████�
 ```
 # 3 tqdm shell 用法
 1. 查看吞吐量
+	```
+	seq 999999 |tqdm|wc -l
+	999999it [00:00, 1332412.87it/s]
+	999999
+	
+	seq 999999 |tqdm --bytes|wc -l
+	6.57MB [00:00, 96.2MB/s]
+	999999
 
-seq 999999 |tqdm|wc -l
-999999it [00:00, 1332412.87it/s]
-999999
-
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzg5MDM3NCwtNTg0OTcyODI0LDc1OT
+eyJoaXN0b3J5IjpbLTgxMDU4NDI5MCwtNTg0OTcyODI0LDc1OT
 c4NTczMF19
 -->
