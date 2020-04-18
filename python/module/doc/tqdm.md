@@ -33,10 +33,21 @@ Tqdm 是 Python 进度条库
 Processing d: 100%|███████████████████████████████████████████████████████| 4/4 [00:25<00:00,  6.39s/it]
 >>> essing d: 100%|███████████████████████████████████████████████████████| 4/4 [00:25<00:00,  8.39s/it]
 ```
+4. tqdm 手工更新
 ```
-``
+>>> from tqdm import tqdm
+>>> from time import sleep
+
+>>> with tqdm(total=100) as pbar:
+...     
+...     for i in range(10):
+...             pbar.update(10)
+...             sleep(0.1)
+... 
+100%|█████████████████████████████████████████████████████████████████| 100/100 [00:01<00:00, 99.50it/s]
+```
 # 3 tqdm高级用法
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzkyMjkxMSw3NTk3ODU3MzBdfQ==
+eyJoaXN0b3J5IjpbLTU4NDk3MjgyNCw3NTk3ODU3MzBdfQ==
 -->
