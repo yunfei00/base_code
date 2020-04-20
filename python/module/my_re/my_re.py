@@ -17,6 +17,16 @@ def get_match_list(pattern_str,line):
 
     return ret
 
+def get_time(line,last_time):
+    '''
+    获取当前行中的时间，如果时间不存在，则返回上次时间
+    '''
+    pattern = re.compile(r'(\d{2}:\d{2}:\d{2}-\d{3})')
+    ret = re.findall(pattern,line)
+    if ret.__len__():
+        return ret[-1]
+    return last_time
+
 
 if __name__ == '__main__':
 
