@@ -4,28 +4,35 @@
 #include  <QDebug>
 #include  <QTextStream>
 #include  <QStringList>
-QFile file("D:\\work\\qt\\build-shhc_fat-Desktop_Qt_5_13_1_MSVC2015_64bit-Release\\release\\data\\data.csv");
+  QFile  file("D:\\work\\qt\\build-shhc_fat-Desktop_Qt_5_13_1_MSVC2015_64bit-Release\\release\\data\\plus_data.csv");
 
-if(!file.open(QIODevice::ReadOnly))
-qDebug()<<"OPEN  FILE  FAILED";
+  if(!file.open(QIODevice::ReadOnly)){
 
-QTextStream  *  out  =  new  QTextStream(&file);//文本流
+  qDebug()<<"open  file  failed";
 
-QStringList  tempOption  =  out->readAll().split("\n");//每行以\n区分
+  return;
 
-for(int  i  =  0  ;  i  <  tempOption.count()  ;  i++)
+  }
 
-{
+  
 
-QStringList  tempbar  =  tempOption.at(i).split(",");//一行中的单元格以，区分
+  QTextStream  *  out  =  new  QTextStream(&file);//文本流
 
-qDebug()  <<  tempbar;
+  QStringList  tempOption  =  out->readAll().split("\n");//每行以\n区分
 
-}
+  for(int  i  =  0  ;  i  <  tempOption.count()  ;  i++)
 
-file.close();//操作完成后记得关闭文件
+  {
+
+  QStringList  data  =  tempOption.at(i).split(",");//一行中的单元格以，区分
+
+  qDebug()  <<  data;
+
+  }
+
+  file.close();//关闭文件
 ```
 2. 写文件
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTU2ODU5NzZdfQ==
+eyJoaXN0b3J5IjpbMjEwMDA2NDgwMl19
 -->
