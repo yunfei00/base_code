@@ -17,7 +17,7 @@ def get_target_format(start_time,finish_time):
 		one_data = str(current_date).split(' ')[0]
 		one_data += week_dict[current_time.weekday()]
 		data_week.append(one_data)
-	return 
+	return data_week
 	
 
 begin_time = datetime.datetime(2020,5,1)
@@ -28,6 +28,6 @@ end_time = datetime.datetime(2020,5,10)
 
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjU5MDY4NzcsMTU5NjU4NzY3LC0xNz
+eyJoaXN0b3J5IjpbLTIwMjgxMzA1MTAsMTU5NjU4NzY3LC0xNz
 M0MDY0NjkxLDEzOTk2NzY3MDBdfQ==
 -->
