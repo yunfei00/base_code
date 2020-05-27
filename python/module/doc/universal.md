@@ -32,6 +32,7 @@ for tmp in res:
 2. 计算两个时间中间的天数
 ```
 import datetime
+
 start_time = datetime.datetime(2020,5,1)
 finish_time = datetime.datetime(2020,5,21)
 diff = finish_time - start_time
@@ -45,6 +46,6 @@ diff.days + 1
 
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyODkxODA1NCwtNDc5Nzg3ODgsMTU5Nj
-U4NzY3LC0xNzM0MDY0NjkxLDEzOTk2NzY3MDBdfQ==
+eyJoaXN0b3J5IjpbMzkwNDIzMjI0LC00Nzk3ODc4OCwxNTk2NT
+g3NjcsLTE3MzQwNjQ2OTEsMTM5OTY3NjcwMF19
 -->
