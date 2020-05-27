@@ -98,7 +98,7 @@ t3 = 0:00:21
 total seconds = 435633.233423
 
 ```
-9. 格式化输出
+9. 格式化输出 时间转字符串 strftime
 ```
 >>> from datetime import datetime
 >>> now = datetime.now()
@@ -112,13 +112,30 @@ time: 13:40:10
 s1: 05/27/2020, 13:40:10
 >>> 
 >>> s2 = now.strftime("%d/%m/%Y, %H:%M:%S")
->>> # dd/mm/YY H:M:S format
-... print("s2:", s2)
+>>> print("s2:", s2)
 s2: 27/05/2020, 13:40:10
-
 ``` 
+10. 格式化输出 字符串转时间 strptime
+```
+>>> from datetime import datetime
+>>> 
+>>> date_object = datetime.strptime(date_string, "%d %B, %Y")
+>>> print("date_object =", date_object)
+date_object = 2018-06-21 00:00:00
+>>> 
+>>> 
+>>> 
+>>> date_string = "2020-05-21"
+>>> print("date_string =", date_string)
+date_string = 2020-05-21
+>>> date_object = datetime.strptime(date_string, "%Y-%m-%d")
+>>> print("date_object =", date_object)
+date_object = 2020-05-21 00:00:00
+
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODIwNzE4MDEsMTEyOTM2NDk0OSwtMT
+eyJoaXN0b3J5IjpbLTE3NTk2NDQ1NTEsMTEyOTM2NDk0OSwtMT
 cwMzQ5MjMzMiwzOTA0MjMyMjQsLTQ3OTc4Nzg4LDE1OTY1ODc2
 NywtMTczNDA2NDY5MSwxMzk5Njc2NzAwXX0=
 -->
