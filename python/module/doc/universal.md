@@ -10,11 +10,14 @@ end_time = '2020-05-31'
 
 def get_target_format(start_time,finish_time):
 	data_week = []
+	week_dict = {0:'星期一',1:'星期二',2:'星期三',3:'星期四',4:'星期五',5:'星期六',6:'星期日'}
 	for current_date in pd.date_range(start=start_time,end=finish_time):
 		
 		current_time = datetime.datetime.strptime(str(current_date), "%Y-%m-%d %H:%M:%S")
 		one_data = str(current_date).split(' ')[0]
-		if current_time.weekday():
+		one_data += week_dict[current_time.weekday()]
+		data_week.append(one_data)
+	return 
 	
 
 begin_time = datetime.datetime(2020,5,1)
@@ -25,6 +28,6 @@ end_time = datetime.datetime(2020,5,10)
 
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDU2NDkxNjIsMTU5NjU4NzY3LC0xNz
+eyJoaXN0b3J5IjpbLTE3MjU5MDY4NzcsMTU5NjU4NzY3LC0xNz
 M0MDY0NjkxLDEzOTk2NzY3MDBdfQ==
 -->
