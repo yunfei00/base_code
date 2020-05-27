@@ -40,12 +40,21 @@ diff.days + 1
 21
 ```
 
+3. 获取当前日期
+```
+>>> date_object = datetime.date.today()
+>>> print(date_object)
+2020-05-27
+```
+4. 
+
 	
 
 	
 
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwNDIzMjI0LC00Nzk3ODc4OCwxNTk2NT
-g3NjcsLTE3MzQwNjQ2OTEsMTM5OTY3NjcwMF19
+eyJoaXN0b3J5IjpbLTE3MDM0OTIzMzIsMzkwNDIzMjI0LC00Nz
+k3ODc4OCwxNTk2NTg3NjcsLTE3MzQwNjQ2OTEsMTM5OTY3Njcw
+MF19
 -->
