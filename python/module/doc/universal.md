@@ -46,7 +46,19 @@ diff.days + 1
 >>> print(date_object)
 2020-05-27
 ```
-4. 获取是
+4. 从时间戳获取时间
+```
+import time
+import datetime
+current_time = datetime.datetime.fromtimestamp(time.time())
+print(current_time)
+2020-05-27 13:22:20.549956
+
+current_date = datetime.date.fromtimestamp(time.time())
+print(current_date)
+2020-05-27
+```
+
 
 	
 
@@ -54,7 +66,7 @@ diff.days + 1
 
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzc1NjcyNDAsLTE3MDM0OTIzMzIsMz
-kwNDIzMjI0LC00Nzk3ODc4OCwxNTk2NTg3NjcsLTE3MzQwNjQ2
-OTEsMTM5OTY3NjcwMF19
+eyJoaXN0b3J5IjpbMTEyNzA0OTE1NywtMTcwMzQ5MjMzMiwzOT
+A0MjMyMjQsLTQ3OTc4Nzg4LDE1OTY1ODc2NywtMTczNDA2NDY5
+MSwxMzk5Njc2NzAwXX0=
 -->
