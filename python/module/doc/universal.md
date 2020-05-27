@@ -28,12 +28,15 @@ for tmp in res:
 2020-05-04 星期一
 2020-05-05 星期二
 ```
+
+2. 计算两个时间中间的天数
+
 	
 
 	
 
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTc4Nzg4LDE1OTY1ODc2NywtMTczND
-A2NDY5MSwxMzk5Njc2NzAwXX0=
+eyJoaXN0b3J5IjpbNTc4MDQ2NzIwLC00Nzk3ODc4OCwxNTk2NT
+g3NjcsLTE3MzQwNjQ2OTEsMTM5OTY3NjcwMF19
 -->
