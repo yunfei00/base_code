@@ -119,23 +119,14 @@ s2: 27/05/2020, 13:40:10
 ```
 >>> from datetime import datetime
 >>> 
->>> date_object = datetime.strptime(date_string, "%d %B, %Y")
->>> print("date_object =", date_object)
-date_object = 2018-06-21 00:00:00
->>> 
->>> 
->>> 
 >>> date_string = "2020-05-21"
->>> print("date_string =", date_string)
-date_string = 2020-05-21
 >>> date_object = datetime.strptime(date_string, "%Y-%m-%d")
 >>> print("date_object =", date_object)
 date_object = 2020-05-21 00:00:00
-
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk2NDQ1NTEsMTEyOTM2NDk0OSwtMT
-cwMzQ5MjMzMiwzOTA0MjMyMjQsLTQ3OTc4Nzg4LDE1OTY1ODc2
-NywtMTczNDA2NDY5MSwxMzk5Njc2NzAwXX0=
+eyJoaXN0b3J5IjpbLTEwMzE2MzI4LDExMjkzNjQ5NDksLTE3MD
+M0OTIzMzIsMzkwNDIzMjI0LC00Nzk3ODc4OCwxNTk2NTg3Njcs
+LTE3MzQwNjQ2OTEsMTM5OTY3NjcwMF19
 -->
