@@ -89,7 +89,7 @@ t3 = -1 day, 23:59:39
 >>> print("t3 =", abs(t3))
 t3 = 0:00:21
 ```
-8. 用秒表示时间差
+8. 用秒表示时间间隔
 ```
 >>> from datetime import timedelta
 
@@ -99,7 +99,7 @@ total seconds = 435633.233423
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzM1MDA4OTQsMTEyOTM2NDk0OSwtMT
-cwMzQ5MjMzMiwzOTA0MjMyMjQsLTQ3OTc4Nzg4LDE1OTY1ODc2
-NywtMTczNDA2NDY5MSwxMzk5Njc2NzAwXX0=
+eyJoaXN0b3J5IjpbNTUzMjQ5ODA2LDExMjkzNjQ5NDksLTE3MD
+M0OTIzMzIsMzkwNDIzMjI0LC00Nzk3ODc4OCwxNTk2NTg3Njcs
+LTE3MzQwNjQ2OTEsMTM5OTY3NjcwMF19
 -->
