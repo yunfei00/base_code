@@ -61,8 +61,9 @@ print(current_date)
 5. 获取年月日
 ```
 >>> current_time = datetime.datetime.today()
->>> print(current_time.year,current_time.month,current_date.day)
-2020 5 2
+>>> print(current_time.year,current_time.month,current_date.day,current_time.hour,current_time.minute,current_time.second,current_time.microsecond)
+2020 5 27 13 25 11 606496
+
 ```
 	
 
@@ -70,7 +71,7 @@ print(current_date)
 
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDc0NDIyNjIsLTE3MDM0OTIzMzIsMz
-kwNDIzMjI0LC00Nzk3ODc4OCwxNTk2NTg3NjcsLTE3MzQwNjQ2
-OTEsMTM5OTY3NjcwMF19
+eyJoaXN0b3J5IjpbNDIzMDk5Njc3LC0xNzAzNDkyMzMyLDM5MD
+QyMzIyNCwtNDc5Nzg3ODgsMTU5NjU4NzY3LC0xNzM0MDY0Njkx
+LDEzOTk2NzY3MDBdfQ==
 -->
