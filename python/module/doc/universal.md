@@ -69,13 +69,37 @@ print(current_time.year,current_time.month,current_date.day,current_time.hour,cu
 >>> print(current_date.year,current_date.month,current_date.day)
 2020 5 27
 ```
-6. 
-
-	
-
+6. 两个时间间隔的时间差
+```
+>>> from datetime import timedelta
+>>> t1 = timedelta(weeks = 2, days = 5, hours = 1, seconds = 33)
+>>> t2 = timedelta(days = 4, hours = 11, minutes = 4, seconds = 54)
+>>> t3 = t1 - t2
+>>> print("t3 =", t3)
+t3 = 14 days, 13:55:39
 ``` 
+7. 负时间差
+```
+>>> from datetime import timedelta
+>>> t1 = timedelta(seconds = 33)
+>>> t2 = timedelta(seconds = 54)
+>>> t3 = t1 - t2
+>>> print("t3 =", t3)
+t3 = -1 day, 23:59:39
+>>> print("t3 =", abs(t3))
+t3 = 0:00:21
+```
+8. 用秒表示时间差
+```
+>>> from datetime import timedelta
+
+>>> t = timedelta(days = 5, hours = 1, seconds = 33, microseconds = 233423)
+>>> print("total seconds =", t.total_seconds())
+total seconds = 435633.233423
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTM2NDk0OSwtMTcwMzQ5MjMzMiwzOT
-A0MjMyMjQsLTQ3OTc4Nzg4LDE1OTY1ODc2NywtMTczNDA2NDY5
-MSwxMzk5Njc2NzAwXX0=
+eyJoaXN0b3J5IjpbLTExMzM1MDA4OTQsMTEyOTM2NDk0OSwtMT
+cwMzQ5MjMzMiwzOTA0MjMyMjQsLTQ3OTc4Nzg4LDE1OTY1ODc2
+NywtMTczNDA2NDY5MSwxMzk5Njc2NzAwXX0=
 -->
