@@ -19,7 +19,14 @@ def get_target_format(start_time,finish_time):
 		data_week.append(one_data)
 	return data_week
 res = get_target_format(begin_time ,end_time)
-print(res)
+>>>for tmp in res:
+...     print(tmp)
+... 
+2020-05-01 星期五
+2020-05-02 星期六
+2020-05-03 星期日
+2020-05-04 星期一
+2020-05-05 星期二
 
 
 begin_time = datetime.datetime(2020,5,1)
@@ -30,6 +37,6 @@ end_time = datetime.datetime(2020,5,10)
 
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyNTI4NzY4LDE1OTY1ODc2NywtMTczND
-A2NDY5MSwxMzk5Njc2NzAwXX0=
+eyJoaXN0b3J5IjpbLTE0MTY4Njk2NDIsMTU5NjU4NzY3LC0xNz
+M0MDY0NjkxLDEzOTk2NzY3MDBdfQ==
 -->
