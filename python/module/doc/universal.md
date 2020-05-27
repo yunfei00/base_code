@@ -46,7 +46,7 @@ diff.days + 1
 >>> print(date_object)
 2020-05-27
 ```
-4. 
+4. 获取是
 
 	
 
@@ -54,7 +54,7 @@ diff.days + 1
 
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDM0OTIzMzIsMzkwNDIzMjI0LC00Nz
-k3ODc4OCwxNTk2NTg3NjcsLTE3MzQwNjQ2OTEsMTM5OTY3Njcw
-MF19
+eyJoaXN0b3J5IjpbLTE2Nzc1NjcyNDAsLTE3MDM0OTIzMzIsMz
+kwNDIzMjI0LC00Nzk3ODc4OCwxNTk2NTg3NjcsLTE3MzQwNjQ2
+OTEsMTM5OTY3NjcwMF19
 -->
