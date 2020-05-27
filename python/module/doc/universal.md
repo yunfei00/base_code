@@ -13,6 +13,8 @@ def get_target_format(start_time,finish_time):
 	for current_date in pd.date_range(start=start_time,end=finish_time):
 		
 		current_time = datetime.datetime.strptime(str(current_date), "%Y-%m-%d %H:%M:%S")
+		one_data = str(current_date).split(' ')[0]
+		if current_time.weekday():
 	
 
 begin_time = datetime.datetime(2020,5,1)
@@ -23,6 +25,6 @@ end_time = datetime.datetime(2020,5,10)
 
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTMxODAxMCwxNTk2NTg3NjcsLTE3Mz
-QwNjQ2OTEsMTM5OTY3NjcwMF19
+eyJoaXN0b3J5IjpbLTEzNDU2NDkxNjIsMTU5NjU4NzY3LC0xNz
+M0MDY0NjkxLDEzOTk2NzY3MDBdfQ==
 -->
