@@ -98,8 +98,27 @@ t3 = 0:00:21
 total seconds = 435633.233423
 
 ```
+9. 格式化输出
+```
+>>> from datetime import datetime
+>>> now = datetime.now()
+>>> 
+>>> t = now.strftime("%H:%M:%S")
+>>> print("time:", t)
+time: 13:40:10
+>>> 
+>>> s1 = now.strftime("%m/%d/%Y, %H:%M:%S")
+>>> print("s1:", s1)
+s1: 05/27/2020, 13:40:10
+>>> 
+>>> s2 = now.strftime("%d/%m/%Y, %H:%M:%S")
+>>> # dd/mm/YY H:M:S format
+... print("s2:", s2)
+s2: 27/05/2020, 13:40:10
+
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzMjQ5ODA2LDExMjkzNjQ5NDksLTE3MD
-M0OTIzMzIsMzkwNDIzMjI0LC00Nzk3ODc4OCwxNTk2NTg3Njcs
-LTE3MzQwNjQ2OTEsMTM5OTY3NjcwMF19
+eyJoaXN0b3J5IjpbLTE4ODIwNzE4MDEsMTEyOTM2NDk0OSwtMT
+cwMzQ5MjMzMiwzOTA0MjMyMjQsLTQ3OTc4Nzg4LDE1OTY1ODc2
+NywtMTczNDA2NDY5MSwxMzk5Njc2NzAwXX0=
 -->
