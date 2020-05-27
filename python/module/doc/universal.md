@@ -58,7 +58,12 @@ current_date = datetime.date.fromtimestamp(time.time())
 print(current_date)
 2020-05-27
 ```
-
+5. 获取年月日
+6>>> current_time = datetime.datetime.today()
+>>> print(current_time.year,current_time.month,current_date)
+2020 5 2020-05-27
+>>> print(current_time.year,current_time.month,current_date.day)
+2020 5 2
 
 	
 
@@ -66,7 +71,7 @@ print(current_date)
 
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzA0OTE1NywtMTcwMzQ5MjMzMiwzOT
+eyJoaXN0b3J5IjpbMTU3NTcwNjkzMCwtMTcwMzQ5MjMzMiwzOT
 A0MjMyMjQsLTQ3OTc4Nzg4LDE1OTY1ODc2NywtMTczNDA2NDY5
 MSwxMzk5Njc2NzAwXX0=
 -->
