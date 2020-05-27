@@ -6,10 +6,12 @@ import time
 import datetime
 begin_time = datetime.datetime(2020,5,1)
 end_time = datetime.datetime(2020,5,10)
-begin_time = 
+
 def get_target_format(start_time,finish_time):
+
+	
 
 ``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2ODc4MTA4OSwxMzk5Njc2NzAwXX0=
+eyJoaXN0b3J5IjpbLTE3MzQwNjQ2OTEsMTM5OTY3NjcwMF19
 -->
