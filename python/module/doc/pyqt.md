@@ -29,12 +29,21 @@
 #!/usr/bin/python3
 # -*- coding:UTF-8 -*-
 
+import sys
+from ui.ui import Ui_MainWindow
+from PySide2.QtWidgets import QMainWindow,QApplication
 
 class  MyWindow(QMainWindow, Ui_MainWindow):
 	def  __init__(self, parent=None):
 		super(MyWindow, self).__init__(parent)
 		self.setupUi(self)
 
+if  __name__ == '__main__':
+	app = QApplication(sys.argv)
+	window = MyWindow()
+	window.setWindowTitle('test')
+	window.show()
+	sys.exit(app.exec_())
 ```
 
 
@@ -52,5 +61,6 @@ class  MyWindow(QMainWindow, Ui_MainWindow):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk4OTI3NTcsMTcwNTA1MzczMl19
+eyJoaXN0b3J5IjpbLTE4NTcxMzQ3MDUsLTEzOTk4OTI3NTcsMT
+cwNTA1MzczMl19
 -->
