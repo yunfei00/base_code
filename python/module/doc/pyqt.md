@@ -16,7 +16,8 @@
 	pyside2-uic %1  > ui.py
 	```
 直接把对应的ui文件，拖入脚本中，即可生成对应的ui.py文件。
-**注意** 当ui文件中含有table widget时，需要删除生成文件中的1 2 3 4等
+**注意** 当ui文件中含有table widget时，需要删除生成文件中的1 2 3 4等.
+cb
 
   <h1 id="title2">2 mainwindow.ui 文件显示</h1>  
   新建python文件，将ui文件包含进来，并运行显示。
@@ -74,6 +75,6 @@ if __name__ == '__main__':
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTkyNzQyNjMsLTEzOTk4OTI3NTcsMT
-cwNTA1MzczMl19
+eyJoaXN0b3J5IjpbLTI4MzI4MzgzMiwtMjAxOTI3NDI2MywtMT
+M5OTg5Mjc1NywxNzA1MDUzNzMyXX0=
 -->
