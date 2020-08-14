@@ -27,12 +27,30 @@
 ```
 #!/usr/bin/python3
 # -*- coding:UTF-8 -*-
+class  MyWindow(QMainWindow, Ui_MainWindow):
+
+def  __init__(self, parent=None):
+
+super(MyWindow, self).__init__(parent)
+
+self.setupUi(self)
+
+```
+
+
+  <h1 id="title1">2 widget.ui 文件显示</h1>  
+  新建python文件，将ui文件包含进来，并运行显示。
+
+```
+#!/usr/bin/python3
+# -*- coding:UTF-8 -*-
 
 
 ```
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTA1MzczMl19
+eyJoaXN0b3J5IjpbNzA0NjYzODcyLDE3MDUwNTM3MzJdfQ==
 -->
