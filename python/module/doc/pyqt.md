@@ -1,7 +1,8 @@
 # 目录
 
 <h3><a href="#title1">1 ui 界面转化为python程序 </a> </h3>
-<h3><a href="#title2">2 widget.ui 文件显示 </a> </h3>
+<h3><a href="#title2">2 mainwindow.ui 文件显示 </a> </h3>
+<h3><a href="#title2">2 mainwindow.ui 文件显示 </a> </h3>
 		<h4><ul><a href="#title2.1">2.1 LEFT函数</a> </h4>
 		<h4><ul><a href="#title2.2">2.2 RIGHT函数</a> </h4>
 		<h4><ul><a href="#title2.3">2.3 MID函数</a> </h4>
@@ -50,5 +51,5 @@ class  MyWindow(QMainWindow, Ui_MainWindow):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODU5ODkyMSwxNzA1MDUzNzMyXX0=
+eyJoaXN0b3J5IjpbMzI0MTQxNjY3LDE3MDUwNTM3MzJdfQ==
 -->
