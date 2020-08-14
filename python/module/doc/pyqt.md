@@ -1,7 +1,7 @@
 # 目录
 
 <h3><a href="#title1">1 ui 界面转化为python程序 </a> </h3>
-<h3><a href="#title2">2 Excel中分列相关函数</a> </h3>
+<h3><a href="#title2">2 widget.ui 文件显示 </a> </h3>
 		<h4><ul><a href="#title2.1">2.1 LEFT函数</a> </h4>
 		<h4><ul><a href="#title2.2">2.2 RIGHT函数</a> </h4>
 		<h4><ul><a href="#title2.3">2.3 MID函数</a> </h4>
@@ -19,8 +19,12 @@
 	pyside2-uic %1  > ui.py
 	```
 直接把对应的ui文件，拖入脚本中，即可生成对应的ui.py文件。
-**注意** 当ui文件中含有tabl了
+**注意** 当ui文件中含有table widget时，需要删除生成文件中的1 2 3 4等
+
+  <h1 id="title1">1 ui 界面转化为python程序</h1>  
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODUyNTA0NV19
+eyJoaXN0b3J5IjpbMTY4MDMyODY5MF19
 -->
