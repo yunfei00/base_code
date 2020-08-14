@@ -21,10 +21,18 @@
 直接把对应的ui文件，拖入脚本中，即可生成对应的ui.py文件。
 **注意** 当ui文件中含有table widget时，需要删除生成文件中的1 2 3 4等
 
-  <h1 id="title1">1 ui 界面转化为python程序</h1>  
+  <h1 id="title1">2 widget.ui 文件显示</h1>  
+  新建python文件，将ui文件包含进来，并运行显示。
+
+```
+#!/usr/bin/python3
+# -*- coding:UTF-8 -*-
+
+
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDMyODY5MF19
+eyJoaXN0b3J5IjpbMTcwNTA1MzczMl19
 -->
