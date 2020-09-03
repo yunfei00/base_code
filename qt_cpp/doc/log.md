@@ -29,10 +29,9 @@
 	```
 6. 发行版本不输出debug日志
 在pro文件中增加``DEFINES += QT_NO_DEBUG_OUTPUT``
-或者在头文件中
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzIzMTg4Miw1ODkxMTAzMjUsLTk2MD
-k0OTA1N119
+eyJoaXN0b3J5IjpbMTA5NTc4MjQ2OSwtOTk3MjMxODgyLDU4OT
+ExMDMyNSwtOTYwOTQ5MDU3XX0=
 -->
