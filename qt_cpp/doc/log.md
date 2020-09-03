@@ -27,8 +27,12 @@
 	qWarning() << warning;
 	qCritical() << Critical;
 	```
+6. 发行版本不输出debug日志
+在pro文件中增加``DEFINES += QT_NO_DEBUG_OUTPUT``
+或者在头文件中
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5MTEwMzI1LC05NjA5NDkwNTddfQ==
+eyJoaXN0b3J5IjpbLTk5NzIzMTg4Miw1ODkxMTAzMjUsLTk2MD
+k0OTA1N119
 -->
