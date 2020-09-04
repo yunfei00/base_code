@@ -26,7 +26,8 @@ Tqdm 是 Python 进度条库
 ```
 >>> from time import sleep
 >>> from tqdm import tqdm
->>> pbar = tqdm(["a", "b", "c", "d"])                                                                                                      >>> for char in pbar:                                                              | 0/4 [00:00<?, ?it/s]
+>>> pbar = tqdm(["a", "b", "c", "d"])      
+>                                                                                                >>> for char in pbar:                                                              | 0/4 [00:00<?, ?it/s]
 ...     sleep(1)
 ...     pbar.set_description("Processing %s" % char)
 ... 
@@ -63,6 +64,6 @@ Processing d: 100%|████████████████████�
 
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTMxMzUyMSwtNTg0OTcyODI0LDc1OT
-c4NTczMF19
+eyJoaXN0b3J5IjpbMTc3NzkxNTYzMSwtOTg1MzEzNTIxLC01OD
+Q5NzI4MjQsNzU5Nzg1NzMwXX0=
 -->
