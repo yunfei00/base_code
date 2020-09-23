@@ -13,10 +13,6 @@
 
   <h1 id="title1">1 钉钉机器人设置</h1>  
   钉钉机器人设置，需要管理员权限，可参考 [钉钉群机器人](https://ding-doc.dingtalk.com/doc?spm=a1zb9.8233112.0.0.340c3a88sgMlJJ#/serverapi2/krgddi)
-  ```
-  
-  ```
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDA4NjM1Ml19
+eyJoaXN0b3J5IjpbNjM5ODE4MDMyXX0=
 -->
