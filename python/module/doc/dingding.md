@@ -1,13 +1,8 @@
 # 目录
 
 <h3><a href="#title1">1 钉钉机器人设置</a> </h3>
-<h3><a href="#title2">2 Excel中分列相关函数</a> </h3>
-		<h4><ul><a href="#title2.1">2.1 LEFT函数</a> </h4>
-		<h4><ul><a href="#title2.2">2.2 RIGHT函数</a> </h4>
-		<h4><ul><a href="#title2.3">2.3 MID函数</a> </h4>
-		<h4><ul><a href="#title2.4">2.4 SEARCH 函数</a> </h4>
-		<h4><ul><a href="#title2.5">2.5 SUBSTITUTE 函数</a> </h4>
-		<h4><ul><a href="#title2.6">2.6 FIND 函数</a> </h4>
+<h3><a href="#title2">2 python 示例代码</a> </h3>
+
 
 <div style="page-break-after:always"></div>
 
@@ -44,5 +39,5 @@ def dingSendMarkdown(out_str,target_url):
 dingSendMarkdown(display_str,url_test)
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTc3NTEwNF19
+eyJoaXN0b3J5IjpbMjAwMjE1MjUyXX0=
 -->
