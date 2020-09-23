@@ -1,6 +1,6 @@
 # 目录
 
-<h3><a href="#title1">1 Excel中时间戳转化成指定格式的时间</a> </h3>
+<h3><a href="#title1">1 钉钉机器人设置</a> </h3>
 <h3><a href="#title2">2 Excel中分列相关函数</a> </h3>
 		<h4><ul><a href="#title2.1">2.1 LEFT函数</a> </h4>
 		<h4><ul><a href="#title2.2">2.2 RIGHT函数</a> </h4>
@@ -16,7 +16,7 @@
   钉钉机器人设置，需要管理员权限，可参考 [机器人开发](https://ding-doc.dingtalk.com/doc?spm=a1zb9.8233112.0.0.340c3a88sgMlJJ#/serverapi2/qf2nxq)
   <h1 id="title2">2 python 示例代码</h1>  
 
-python 实例代码如下
+python 代码如下
  ```
  #!/usr/bin/env python3
 #author tom
@@ -29,22 +29,20 @@ def dingSendMarkdown(out_str,target_url):
 		"Content-Type": "application/json"
 	}
 	
-data={
-	"msgtype": "markdown",
-	"markdown": {
-		"text": out_str,
-		"title": "体重零飘问题",
+	data={
+		"msgtype": "markdown",
+		"markdown": {
+			"text": out_str,
+			"title": "体重零飘问题",
+			}
 		}
-	}
-  
+	
+	json_data=json.dumps(data)
+	#print(json_data)
+	requests.post(url=target_url,data=json_data,headers=headers)
 
-json_data=json.dumps(data)
-
-print(json_data)
-
-requests.post(url=target_url,data=json_data,headers=headers)
-
+dingSendMarkdown(display_str,url_test)
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjAyOTIyOV19
+eyJoaXN0b3J5IjpbMTM2OTc3NTEwNF19
 -->
