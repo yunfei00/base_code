@@ -24,7 +24,27 @@ import sys
 import requests
 import json
 
+def dingSendMarkdown(out_str,target_url):
+	headers={
+		"Content-Type": "application/json"
+	}
+	
+data={
+	"msgtype": "markdown",
+	"markdown": {
+		"text": out_str,
+		"title": "体重零飘问题",
+		}
+	}
+  
+
+json_data=json.dumps(data)
+
+print(json_data)
+
+requests.post(url=target_url,data=json_data,headers=headers)
+
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg3MjA2ODZdfQ==
+eyJoaXN0b3J5IjpbMTAxMjAyOTIyOV19
 -->
