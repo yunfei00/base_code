@@ -13,8 +13,8 @@ with open('info.json','r',encoding='utf8') as fp:
 dict1 = {'name': '张三', 'age': 18, 'sex': '男'}
 with open('info.json','a',encoding='utf8') as fp:
 	json.dump(dict1,fp,ensure_ascii=False)　　
-如果ensure_ascii ' '为false，则返回值可以包含非ascii值
+# 如果ensure_ascii ' '为false，则返回值可以包含非ascii值
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE2MDg1MzVdfQ==
+eyJoaXN0b3J5IjpbMTE2MTU2NDYxNF19
 -->
