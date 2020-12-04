@@ -128,15 +128,18 @@ date_object = 2020-05-21 00:00:00
 11. 格式化字符串转换成时间戳
 
 ```
-dt = '%Y-%m-%d %H:%M:%S'.format
+import time
+dt = '2020-12-02 11:11:01'
 timeArray = time.strptime(dt, "%Y-%m-%d %H:%M:%S")
+timestamp = time.mktime(timeArray)
+print(timestamp)   # 1606878661.0
 ```
 
 # 2 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxNzI2MDczLDYxMzE0MDc0NSwtMTAzMT
-YzMjgsMTEyOTM2NDk0OSwtMTcwMzQ5MjMzMiwzOTA0MjMyMjQs
-LTQ3OTc4Nzg4LDE1OTY1ODc2NywtMTczNDA2NDY5MSwxMzk5Nj
-c2NzAwXX0=
+eyJoaXN0b3J5IjpbMTQ3MzkzNzE4Miw2MTMxNDA3NDUsLTEwMz
+E2MzI4LDExMjkzNjQ5NDksLTE3MDM0OTIzMzIsMzkwNDIzMjI0
+LC00Nzk3ODc4OCwxNTk2NTg3NjcsLTE3MzQwNjQ2OTEsMTM5OT
+Y3NjcwMF19
 -->
