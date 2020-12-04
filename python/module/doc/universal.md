@@ -125,13 +125,18 @@ s2: 27/05/2020, 13:40:10
 date_object = 2020-05-21 00:00:00
 ```
 
-11. 
+11. 格式化字符串转换成时间戳
+
+```
+dt = '%Y-%m-%d %H:%M:%S'.format
+timeArray = time.strptime(dt, "%Y-%m-%d %H:%M:%S")
+```
 
 # 2 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDYyMDA3Nyw2MTMxNDA3NDUsLTEwMz
-E2MzI4LDExMjkzNjQ5NDksLTE3MDM0OTIzMzIsMzkwNDIzMjI0
-LC00Nzk3ODc4OCwxNTk2NTg3NjcsLTE3MzQwNjQ2OTEsMTM5OT
-Y3NjcwMF19
+eyJoaXN0b3J5IjpbNzcxNzI2MDczLDYxMzE0MDc0NSwtMTAzMT
+YzMjgsMTEyOTM2NDk0OSwtMTcwMzQ5MjMzMiwzOTA0MjMyMjQs
+LTQ3OTc4Nzg4LDE1OTY1ODc2NywtMTczNDA2NDY5MSwxMzk5Nj
+c2NzAwXX0=
 -->
